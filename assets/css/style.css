@@ -1,0 +1,85 @@
+
+
+/* ============= Colors ==================================================== */
+
+.colors-navbar {
+    background-color: #343434;
+}
+
+
+/* ============= Menu ==================================================== */
+
+.cs-logo {
+    height: 160px;
+}
+
+
+.cs-nav {
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0;
+}
+
+.cs-nav-title{
+    display: table;
+    padding-bottom: 12px;
+    font-size: 50px;
+
+}
+
+.title-part-1 {
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 0;
+
+}
+.title-part-2 {
+    display: block;
+    font-size: 25px;
+    letter-spacing: 12px;
+    padding-top: 0;
+
+}
+
+.cs-nav-links {
+    flex-direction: row;
+    align-items: start;
+    padding: 6px;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+.cs-burger {
+    margin-right: 20px;
+    position: relative;
+    padding: 4px;
+    border: none;
+    
+    
+    
+}
+
+/* ============= Media Queries ==================================================== */
+
+@media (max-width: 576px) { 
+
+
+.cs-logo {
+    height: 70px;
+}
+
+.cs-nav-links {
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 4px;
+    font-size: 14px;
+    
+  
+}
+
+
+
+}
