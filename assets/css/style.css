@@ -15,7 +15,12 @@ body{
 .colors-navbar {
     background-color: #343434;
 }
-
+.fa-phone {
+    color:#559e02;
+}
+.colors-eco-row {
+    background-color: #417e46;
+}
 
 /* ============= Spacing ================================================= */
 
@@ -71,9 +76,7 @@ body{
 
 }
 
-.fa-phone {
-    color:#199e02;
-}
+
 
 .cs-burger {
     margin-right: 20px;
@@ -86,16 +89,19 @@ body{
 
 /* ============= Carousel Styling ==================================================== */
 
+
 .image-overlay-textbox {
     
     position: absolute;
-    top: 160px;
-    left: 50%;
+    margin-left: 25vw;
+    margin-top: 120px;
+    width: 50%;
+    height: 50%;
     z-index: 3;
-    color: #fff;
+    color: #fafafa;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    text-shadow: 1px 1px 0 rgba(0,0,0,.8);
     padding-right: 50px;
     padding-bottom: 50px;
       
@@ -105,15 +111,20 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0;
+    color: #fafafa;
+}
+.image-overlay-textbox h3 {
+    color: #fafafa;
 }
 
 .image-overlay-textbox-small{
     font-size: 15px;
     position: absolute;
-    top: 15%;
-    left: 60%;
+    
+    margin-top: 5vw;
+    left: 25vw;
     z-index: 3;
-    color: #fff;
+    color: #fafafa;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
@@ -128,8 +139,7 @@ body{
 .cs-button-sm{
     padding-bottom: 3px;
     padding-top: 3px;
-    padding-left: 4;
-    padding-right: 4;
+    
 }
 
 .grey-overlay {
@@ -157,7 +167,7 @@ body{
     height: 30vh;
     max-height: 178px;
     overflow: hidden;
-    background-color: red;
+    
 }
 
 .smaller-than-large-image{
@@ -167,7 +177,111 @@ body{
     
 }
 
+/* ============= Why Choose us ==================================================== */
 
+
+
+.why-choose-us-header{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue';
+    font-style: bold;
+    font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: #343434;
+    text-align: center;
+}
+
+.title-underline{
+    height: 20px;
+    width: 60vw;
+    border: 2px solid #343434 ;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    background-image: url("https://i.ibb.co/TmnLYhF/stones-wall-93417-3.jpg");
+    border-image-repeat: repeat;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+ 
+.choose-us-column{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 600;
+    color: #343434;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.choose-us-h3 {
+    font-family: Bebas Neue;
+    font-size: 40px;
+}
+
+.eco-friendly-row {
+    color: #fafafa;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.speech-bubble {
+    width: 50%;
+	position: relative;
+	background: #ffff80;
+	border-radius: .4em;
+    padding: 10 px;
+    color: #343434;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 130px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 60%;
+	width: 0;
+	height: 0;
+	border: 26px solid transparent;
+	border-top-color: #ffff80;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -13px;
+	margin-bottom: -26px;
+    
+}
+
+.speech {
+    padding: 5px;
+}
+
+.speech p{
+    margin-bottom: 0px;
+}
+
+.mouse-img {
+    margin-top: 20px;
+    height: 100px;
+    float: right;
+    margin-bottom: 20px;
+}
 
 /* ============= Media Queries ==================================================== */
 @media (min-width: 320px) { 
@@ -232,7 +346,16 @@ body{
     padding-left: 8;
     padding-right: 8;
 }
+
+.image-overlay-textbox-small{
+    font-size: 22px;
+    left: 30vw;
+    margin-top: 10vw;
+    
 }
+
+}
+
 @media (min-width: 992px) { 
 .title-part-1 {
     display: block;
