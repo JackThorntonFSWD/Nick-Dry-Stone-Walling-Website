@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Mono&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 *{
     padding: 0;
@@ -26,6 +34,13 @@ body{
     background-color: #343434;
 }
 
+.fa-facebook {
+    color: rgba(0, 161, 241)
+}
+.fa-instagram {
+    color: #ffc107;
+}
+
 /* ============= Spacing ================================================= */
 
 .padding-none{
@@ -34,7 +49,7 @@ body{
 /* ============= Nav Menu ==================================================== */
 
 .cs-logo {
-    height: 70px;
+    height: 120px;
 }
 
 .cs-titlebox-width{
@@ -92,11 +107,25 @@ body{
 /* ============= Footer Styling ==================================================== */
 
 .site-footer{
-    height: 150px;
-
+    height: 190px;
 }
 
+.footer-details{
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.footer-icon{
+    font-size: 30px;
+    margin-top: 3px;
+}
+.footer-margin {
+    margin-bottom: 1px;
+}
 
 /* ============= Carousel Styling ==================================================== */
 
@@ -129,10 +158,10 @@ body{
 }
 
 .image-overlay-textbox-small{
-    font-size: 15px;
+    
     position: absolute;
-    margin-top: 5vw;
-    left: 25vw;
+    margin-top: 20vw;
+    
     z-index: 3;
     color: #fafafa;
     text-align: center;
@@ -140,6 +169,11 @@ body{
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
     padding-right: 50px;
     padding-bottom: 50px;
+}
+
+.smaller-than-large-text{
+    font-size: 60px;
+    font-weight: 600;
 }
 
 .cs-button{
@@ -174,16 +208,15 @@ body{
 
 .image-container{
     position: relative;
-    height: 30vh;
-    max-height: 178px;
+    height: 90vh;
     overflow: hidden;
     
 }
 
 .smaller-than-large-image{
     position: absolute;
-    width: 100vw;
-    
+    height: 100%;
+    right: 0%;
     
 }
 
@@ -191,9 +224,9 @@ body{
 
 
 
-.why-choose-us-header{
+.section-header{
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 20px;
     font-family: 'Bebas Neue';
     font-style: bold;
@@ -221,12 +254,14 @@ body{
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 600;
     color: #343434;
     font-size: 16px;
 }
+
+
 
 .choose-us-icon{
     height: 100px;
@@ -248,21 +283,25 @@ body{
     display: inline;
 }
 
+
+
 .eco-friendly-row {
     color: #fafafa;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 500;
     text-align: center;
     font-size: 16px;
 }
 
-
+.mouse{
+    display: block;
+}
 .speech-bubble {
-    width: 50%;
+    width: 60%;
 	position: relative;
 	background: #ffff80;
 	border-radius: .4em;
@@ -318,22 +357,19 @@ body{
 
 @media (min-width: 576px) { 
 
-.cs-logo {
-    height: 100px;
-}
-
-.smaller-than-large-image{
-    bottom: -17%;
-    
-    
-}
-
 .image-container{
     position: relative;
-    height: 30vh;
-    max-height: 330px;
+    height: 90vh;
     overflow: hidden;
-    background-color: red;
+    
+}
+
+
+.image-container{
+    
+    overflow: hidden;
+    height: 400px;
+    
 }
 
 .cs-nav-links { 
@@ -341,23 +377,35 @@ body{
 
 }
 
+.why-choose-us-header{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue';
+    font-style: bold;
+    font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: #343434;
+    text-align: center;
+}
+  
 }
 
 @media (min-width: 576px) { 
 
-.cs-logo {
-    height: 100px;
-}
 
+.smaller-than-large-image{
+    width: 100%;
+    height: auto;
+    
+    
+}
 
 }
 
 @media (min-width: 660px) { 
-.smaller-than-large-image{
-    bottom: -17%;
-    
-    
-}
+
 
 }
 
@@ -372,7 +420,7 @@ body{
 
 .image-overlay-textbox-small{
     font-size: 22px;
-    left: 30vw;
+    margin-left: 20vw;
     margin-top: 10vw;
     
 }
