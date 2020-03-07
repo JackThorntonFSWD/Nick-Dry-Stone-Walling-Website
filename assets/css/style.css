@@ -240,12 +240,12 @@ body{
 
 .title-underline{
     height: 15px;
-    width: 60vw;
+    width: 80vw;
     border: 2px solid #343434 ;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow: hidden;
-    background-image: url("https://i.ibb.co/TmnLYhF/stones-wall-93417-3.jpg");
+    background-image: url("/assets/images/underlineIMG.jpg");
     border-image-repeat: repeat;
     margin: 0 auto;
     margin-bottom: 80px;
@@ -302,7 +302,7 @@ body{
     display: block;
 }
 .speech-bubble {
-    width: 60%;
+    width: 40%;
 	position: relative;
 	background: #ffff80;
 	border-radius: .4em;
@@ -313,6 +313,7 @@ body{
     text-align: center;
     font-size: 16px;
     margin-top: 130px;
+    left: 75px
 }
 
 .speech-bubble:after {
@@ -343,7 +344,7 @@ body{
     margin-top: 20px;
     height: 100px;
     float: right;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 
@@ -351,7 +352,7 @@ body{
 
 .about-us-image-container{
     
-    height: 400px;
+    height: 750px;
     overflow: hidden;
     border-radius: 20px;
     text-align: end;
@@ -359,7 +360,7 @@ body{
 }
 
 .about-us-image-container-small {
-    height: 300px;
+    height: 260px;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -372,6 +373,10 @@ body{
 .about-us-image {  
     width: 100%;
     height: auto;   
+}
+.about-us-image-gw {  
+    width: auto;
+    height: 100%;   
 }
 
 .about-us-row {
@@ -420,14 +425,22 @@ body{
 }
 
 @media (min-width: 576px) { 
-
-.image-container{
-    position: relative;
-    height: 90vh;
-    overflow: hidden;
     
+.speech-bubble {
+    width:80%;
+    left: -50px;
 }
 
+.title-underline {
+    width: 60vw;
+}
+
+.smaller-than-large-image {
+    height auto;
+    width: 100%;
+}
+
+}
 
 .image-container{
     
@@ -454,19 +467,13 @@ body{
     text-align: center;
 }
   
-}
-
-@media (min-width: 576px) { 
 
 
-.smaller-than-large-image{
-    width: 100%;
-    height: auto;
-    
-    
-}
 
-}
+
+
+
+
 
 @media (min-width: 660px) { 
 
@@ -509,8 +516,16 @@ body{
     padding-bottom: 2px;
 
 }
+.about-us-image-gw {  
+    height: auto;
+    width: 100%;   
+}
+.about-us-image-container{
+    
+    height: 600px;
 
-
+    
+}
 
 }
 
