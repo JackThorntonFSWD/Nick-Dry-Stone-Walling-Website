@@ -249,7 +249,7 @@ body{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow: hidden;
-    background-image: url("/assets/images/underlineIMG.jpg");
+    background-image: url("assets/images/underlineIMG.jpg");
     border-image-repeat: repeat;
     margin: 0 auto;
     margin-bottom: 80px;
