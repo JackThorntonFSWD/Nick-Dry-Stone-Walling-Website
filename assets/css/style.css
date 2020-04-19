@@ -30,7 +30,7 @@ body{
 .fa-phone {
     color:#559e02;
 }
-.colors-eco-row, .colors-map-row {
+.colors-eco-row, .colors-map-row, .colors-gallery {
     background-color: #417e46;
 }
 
@@ -48,9 +48,18 @@ body{
 
 /* ============= Spacing ================================================= */
 
-.padding-none{
+.padding-none {
     padding: 0;
 }
+
+
+
+.padding-15 {
+    padding: 15px;
+}
+
+
+
 /* ============= Nav Menu ==================================================== */
 
 .cs-logo {
@@ -84,9 +93,10 @@ body{
     display: block;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     padding-top: 0;
     padding-bottom: 6px;
+    margin-bottom: 18px;
 
 }
 
@@ -424,6 +434,63 @@ body{
     margin-bottom: 50px;
 }
 
+
+/* ============= Gallery ==================================================== */
+
+.gallery-section{
+    padding: 0px;
+    padding-bottom: 30px;
+
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.gallery1 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.gallery2 {
+    width: 100%;
+    height: auto;
+}
+
+ 
+.gallery-row-height{
+    max-height: 376px;
+    overflow: hidden;
+}
+.gallery-sm-img-col{
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.position-img {
+    position: relative;
+    left: 0;
+    bottom: 50px;  
+}
+
+.modal-content {
+    height: 95vh;
+} 
+
+.cs-max-height1 {
+    max-height: 188px
+}
+
+
+
 /* ============= Media Queries ==================================================== */
 @media (min-width: 320px) { 
 
@@ -460,7 +527,7 @@ body{
 
     .cs-nav-links { 
         padding-right: 20px;
-        padding-top: 45px;
+        padding-top: 43px;
 
     }
 
@@ -500,7 +567,11 @@ body{
         margin-bottom: 10px;
     }
 
+    .modal-dialog {
+        max-width: 90vw;
+    }
 
+    
 }
 
 @media (min-width: 660px) { 
@@ -523,6 +594,12 @@ body{
         margin-top: 10vw;
         
     }
+
+    .gallery-row-height{
+        max-height: 220px;
+}
+    
+    
 }
 
 
@@ -535,6 +612,7 @@ body{
         margin-bottom: 0;
 
     }
+
     .title-part-2 {
         display: block;
         font-size: 19px;
@@ -544,16 +622,25 @@ body{
         padding-bottom: 2px;
 
     }
+
     .about-us-image-gw {  
         height: auto;
         width: 100%;   
     }
-    .about-us-image-container{
-        
-        height: 600px;
 
-        
+    .about-us-image-container{  
+      height: 600px;
     }
+
+    .gallery-row-height{
+        max-height: 260px;
+    }
+
+    .gallery-sm-img-col{
+        max-height: 125px;
+    
+}
+    
 }
 
 
@@ -563,7 +650,23 @@ body{
         position: relative;
         width: auto;
         height: 100%;
-        bottom: 80px;
-        
-    }    
+        bottom: 80px; 
+    }  
+
+    
+      
+}
+@media (min-width: 1735px) {
+
+    
+
+    .gallery-row-height{
+        max-height: 458px;
+    }
+
+    .gallery-sm-img-col{
+        max-height: 229px;
+        overflow: hidden;
+    }
+      
 }
