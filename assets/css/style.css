@@ -443,9 +443,7 @@ body{
 
 }
 
-.modal-body{
-    text-align: center;
-}
+
 
 .gallery1 {
     width: 100%;
@@ -461,18 +459,12 @@ body{
 
  
 .gallery-row-height{
-    max-height: 376px;
+    
     overflow: hidden;
 }
 .gallery-sm-img-col{
     max-height: 120px;
     overflow: hidden;
-}
-
-.relative {
-    position: relative;
-    overflow: hidden;
-
 }
 
 .position-img {
@@ -481,12 +473,36 @@ body{
     bottom: 50px;  
 }
 
-.modal-content {
-    height: 95vh;
-} 
+
 
 .cs-max-height1 {
     max-height: 188px
+}
+
+.yr-height{
+    height: 270px;
+}
+
+.gallery-instructions {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 600;
+    color: #343434;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.modal-content {
+    height: fit-content;
+} 
+
+.modal-body {
+    text-align: center;
+    overflow: hidden;
+}
+
+.modal-footer {
+    margin-top: 16px;
 }
 
 
