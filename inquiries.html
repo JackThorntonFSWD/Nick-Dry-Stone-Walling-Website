@@ -62,41 +62,45 @@
 	</section>
     <section>
         <ul class="inquiries-ul">
-            <li>
+            <li class="inquiries-li">
                 If you have any questions for us please call or email us.
                 <i class="fas fa-thumbs-up"></i>
             </li>
-            <li class="d-block d-sm-none">
+            <li class="inquiries-li d-block d-sm-none">
                 Call us now on: +447497285187
 				<a class="nav-link" href="tel:+447497285187">
 				    <i class="fas fa-phone fa-lg"></i>
 				</a>
 			</li>
-            <li class="d-none d-sm-block">
+            <li class="inquiries-li d-none d-sm-block">
                 Call us now on: +447497285187
             </li>
-            <li>
-                Email us
+            <li class="inquiries-li">
+                Email us at NJThorntonDryStoneWalling@gmail.com
             </li>
         </ul>
     </section>
-	<section style="background-color: blue">
-		
+	<section class="cs-bg-green form-section">
+        <div class="form-div">
+            <p class="form-text">
+                Or feel free to send us a message using this form and we will get back to you as soon as possibe
+            </p>
+            <form id="contactform" action="https://formsubmit.io/send/d4be33d7-13c1-42e3-bfaa-29fdb66546d3" method="POST" class="email-form">
+				<input name="_redirect" type="hidden" id="name" value="https://jackthorntonfswd.github.io/Nick-Dry-Stone-Walling-Website/thanks.html" class="form-input-field">
+                <h6>Name</h6>
+				<input name="name" type="text" id="name" class="form-input-field">
+                <h6>Email</h6>
+				<input name="email" type="email" id="email" class="form-input-field">
+                <h6>Message Text</h6>
+				<textarea name="comment" id="comment" rows="3" class="form-input-field message-text"></textarea>
 
+				<input name="_formsubmit_id" type="text"  class="form-input-field" style="display:none">
 
-			<form id="contactform" action="https://formsubmit.io/send/d4be33d7-13c1-42e3-bfaa-29fdb66546d3" method="POST">
-				<input name="_redirect" type="hidden" id="name" value="https://jackthorntonfswd.github.io/Nick-Dry-Stone-Walling-Website/thanks.html">
-                <h2>name</h2>
-				<input name="name" type="text" id="name">
-                <h2>Email</h2>
-				<input name="email" type="email" id="email">
-                <h2>Text</h2>
-				<textarea name="comment" id="comment" rows="3"></textarea>
-
-				<input name="_formsubmit_id" type="text" style="display:none">
-
-				<input value="Submit" type="submit">
+				<input value="Submit" type="submit" class="btn btn-lg btn-warning cs-button">
             </form>
+        </div>
+
+		
 
 	</section>
 
@@ -104,7 +108,7 @@
 
 	<footer class="fluid-container site-footer colors-footer">
 		<div class="row ">
-			<div class="col"></div>
+			<div class="col d-none d-sm-block"></div>
 			<div class="col footer-details">
 				<p class="footer-margin">N.J.Thornton</p>
 				<p class="footer-margin">Dry Stone Walling</p>
@@ -116,7 +120,7 @@
 					class="fab fa-facebook footer-icon footer-margin"></a>
 				<a href="#" class="fab fa-instagram footer-icon footer-margin"></a>
 				</div>
-				<div class="col"></div>
+				<div class="col d-none d-sm-block"></div>
 			</div>	
 	</footer>
 
