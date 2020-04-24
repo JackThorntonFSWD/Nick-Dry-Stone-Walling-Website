@@ -722,7 +722,7 @@ body{
 }
 
 @media (min-width: 500px) { 
-    
+     
     .speech-bubble { 
         left: 200px;
     }
