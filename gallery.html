@@ -16,14 +16,14 @@
 		<nav class="navbar navbar-dark colors-navbar cs-nav navbar-expand-sm">
 			<div class="d-flex cs-titlebox-width">
 				<a href="index.html"><img href="#" src="assets/images/NJT LOGO V2.15.jpg" class="d-inline-block align-top cs-logo" alt=""></a>
-					<div class="align-self-end cs-nav-title">
-						<div class="navbar-brand align-self-end d-none d-md-block">
-							<h1 class="title-part-1">N.J.Thornton</h1>
-						</div>
-						<div class="navbar-brand align-self-end d-none d-md-block padding-none">
-							<h2 class="title-part-2">Dry Stone Walling</h2>
-						</div>
+				<div class="align-self-end cs-nav-title">
+					<div class="navbar-brand align-self-end d-none d-md-block">
+						<h1 class="title-part-1">N.J.Thornton</h1>
 					</div>
+					<div class="navbar-brand align-self-end d-none d-md-block padding-none">							
+                        <h2 class="title-part-2">Dry Stone Walling</h2>
+                    </div>
+				</div>      
 			</div>
 			<button class="navbar-toggler ml-auto cs-burger"  data-toggle="collapse" type="button" data-target="#burgerMenuDropDown" aria-controls="burgerMenuDropDown" aria-expanded="false" aria-label="Toggle Burger Menu Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,21 +54,26 @@
 	</header>
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col col-12">
+			<div class="col col-12 margin-bottom-60">
 				<h2 class="header1 section-header">Gallery</h2>
 				<div class="title-underline center"></div>
 				<p class="gallery-instructions"> Click on the images for a larger view
 					<i class="fas fa-hand-pointer"></i>
                 </p>
+                <p class="gallery-instructions d-block d-xl-none">Images may look better if you rotate your device</p>
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid spacing-none margin-bottom-100">
+	<section class="container-fluid gallery-section">
         <div class="row gallery-row">
             <div class="col-6 col-md-3 padding-none gallery-column">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img  src="assets/images/Gallery/FarnleyTyas1.jpg" href="#" class="gallery1" alt="Farnley Tyas Image 1" data-toggle="modal" data-target="#farnleyModal1">   
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img  src="assets/images/Gallery/FarnleyTyas1.jpg" href="#" class="gallery1" alt="Farnley Tyas Image 1" data-toggle="modal" data-target="#farnleyModal1">   
+                        </div>
+                    </div>
                 </div>             
                 <!-- Modal -->
                 <div class="modal fade" id="farnleyModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -81,7 +86,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img href="#" src="assets/images/Gallery/FarnleyTyas1.jpg" class="gallery2" alt="Farnley Tyas Image 1" data-toggle="modal" data-target="#exampleModal">
+                                <div class="modal-img-container">
+                                    <img href="#" src="assets/images/Gallery/FarnleyTyas1.jpg" class="gallery2" alt="Farnley Tyas Image 1" data-toggle="modal" data-target="#exampleModal">
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -95,8 +102,12 @@
                     <div class="row height-100 spacing-none">
                         <div class="col-12 padding-none height-50">
                             <div class="gallery-spacing">
-                                <!-- Image trigger modal -->
-                                <img href="#" src="assets/images/Gallery/FarnleyTyas2.jpg" class="gallery1" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#farnleyModal2">
+                                <div class="white-bg">    
+                                    <div class="gallery-container">
+                                        <!-- Image trigger modal -->
+                                        <img href="#" src="assets/images/Gallery/FarnleyTyas2.jpg" class="gallery1" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#farnleyModal2">
+                                    </div>
+                                </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="farnleyModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
@@ -108,7 +119,9 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img href="#" src="assets/images/Gallery/FarnleyTyas2.jpg" class="gallery2" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#exampleModal">
+                                                <div class="modal-img-container">
+                                                    <img href="#" src="assets/images/Gallery/FarnleyTyas2.jpg" class="gallery2" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#exampleModal">
+                                                </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -120,20 +133,26 @@
                         </div>
                         <div class="col-12 padding-none height-50">
                             <div class="gallery-spacing">
-                                <!-- Image trigger modal -->
-                                <img href="#" src="assets/images/Gallery/FarnleyTyas3.jpg" class="gallery1" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#farnleyModal3">
+                                <div class="white-bg">    
+                                    <div class="gallery-container">
+                                        <!-- Image trigger modal -->
+                                        <img href="#" src="assets/images/Gallery/FarnleyTyas3.jpg" class="gallery1" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#farnleyModal3">
+                                    </div>
+                                </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="farnleyModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Brand new retaining wall project at Farnley Tyas. Sandstone was used here. Another satisfied customer.</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Brand new wall at Farnley Tyas, which replaced a fence Sandstone was used here. Another satisfied customer.</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img href="#" src="assets/images/Gallery/FarnleyTyas3.jpg" class="gallery2" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#exampleModal">
+                                                <div class="modal-img-container">
+                                                    <img href="#" src="assets/images/Gallery/FarnleyTyas3.jpg" class="gallery2" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#exampleModal">
+                                                </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -148,8 +167,12 @@
             </div>
             <div class="col-12 col-md-6 padding-none gallery-column">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/FarnleyTyas4.jpg" class="gallery1" alt="Farnley Tyas Image 4" data-toggle="modal" data-target="#farnleyModal4">
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/FarnleyTyas4.jpg" class="gallery1" alt="Farnley Tyas Image 4" data-toggle="modal" data-target="#farnleyModal4">
+                        </div>    
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="farnleyModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -161,7 +184,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/FarnleyTyas4.jpg" class="gallery2" alt="Farnley Tyas Image 4" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/FarnleyTyas4.jpg" class="gallery2" alt="Farnley Tyas Image 4" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -172,26 +197,29 @@
                 </div>                                   
             </div>
         </div> 
-
-
-
         <div class="row gallery-row">
             <div class="col-6 col-md-3 padding-none gallery-column">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/Holme1.jpg" class="gallery1 cs-holme1" alt="Holme Image 1" data-toggle="modal" data-target="#holmeModal1">
+                    <div class="white-bg">
+                        <div class="gallery-container">    
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/Holme1.jpg" class="gallery1 cs-holme1" alt="Holme Image 1" data-toggle="modal" data-target="#holmeModal1">
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="holmeModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Stone of choice for this project was Limestone</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Stone of choice for this project was Sandstone</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/Holme1.jpg" class="gallery2" alt="Holme Image 1" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/Holme1.jpg" class="gallery2" alt="Holme Image 1" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -203,8 +231,12 @@
             </div>
             <div class="col-6 col-md-3 padding-none gallery-column order-md-last">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/Holme3.jpg" class="gallery1 position-img" alt="Holme Image 3" data-toggle="modal" data-target="#holmeModal3">
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/Holme3.jpg" class="gallery1 position-img" alt="Holme Image 3" data-toggle="modal" data-target="#holmeModal3">
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="holmeModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -216,7 +248,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/Holme3.jpg" class="gallery2" alt="Holme Image 3" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/Holme3.jpg" class="gallery2" alt="Holme Image 3" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -228,8 +262,12 @@
             </div>
             <div class="col-12 col-md-6 padding-none gallery-column">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/Holme2.jpg" class="gallery1" alt="Holme Image 2" data-toggle="modal" data-target="#holmeModal2">
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/Holme2.jpg" class="gallery1" alt="Holme Image 2" data-toggle="modal" data-target="#holmeModal2">
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="holmeModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -241,7 +279,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/Holme2.jpg" class="gallery2" alt="Holme Image 2" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/Holme2.jpg" class="gallery2" alt="Holme Image 2" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -258,20 +298,26 @@
                     <div class="row height-100 spacing-none">
                         <div class="col-12 padding-none height-50">
                             <div class="gallery-spacing">
-                                <!-- Image trigger modal -->
-                                <img href="#" src="assets/images/Gallery/Silsden1.jpg" class="gallery1" alt="Silsden 1" data-toggle="modal" data-target="#silsden1">
+                                <div class="white-bg">
+                                    <div class="gallery-container">
+                                        <!-- Image trigger modal -->
+                                        <img href="#" src="assets/images/Gallery/Silsden1.jpg" class="gallery1" alt="Silsden 1" data-toggle="modal" data-target="#silsden1">
+                                    </div>
+                                </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="silsden1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">A garden wall job completed in Silden. Showing the rustic charm dry stone wall can add to any property</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">A garden wall job completed in Farnley Tyas. Showing the rustic charm dry stone wall can add to any property</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img href="#" src="assets/images/Gallery/Silsden1.jpg" class="gallery2" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#exampleModal">
+                                                <div class="modal-img-container">
+                                                    <img href="#" src="assets/images/Gallery/Silsden1.jpg" class="gallery2" alt="Farnley Tyas Image 2" data-toggle="modal" data-target="#exampleModal">
+                                                </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -283,8 +329,12 @@
                         </div>
                         <div class="col-12 padding-none height-50">
                             <div class="gallery-spacing">
-                                <!-- Image trigger modal -->
-                                <img href="#" src="assets/images/Gallery/Silsden2.jpg" class="gallery1" alt="Silsden 2" data-toggle="modal" data-target="#silsden2">
+                                <div class="white-bg">    
+                                    <div class="gallery-container">
+                                        <!-- Image trigger modal -->
+                                        <img href="#" src="assets/images/Gallery/Silsden2.jpg" class="gallery1" alt="Silsden 2" data-toggle="modal" data-target="#silsden2">
+                                    </div>
+                                </div>    
                                 <!-- Modal -->
                                 <div class="modal fade" id="silsden2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
@@ -296,7 +346,9 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img href="#" src="assets/images/Gallery/Silsden2.jpg" class="gallery2" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#exampleModal">
+                                                <div class="modal-img-container">
+                                                    <img href="#" src="assets/images/Gallery/Silsden2.jpg" class="gallery2" alt="Farnley Tyas Image 3" data-toggle="modal" data-target="#exampleModal">
+                                                </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -311,8 +363,12 @@
             </div>
             <div class="col-6 col-md-3 padding-none gallery-column">
                 <div class="gallery-spacing">  
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/FarnleyTyas6.jpg" class="gallery1 position-img" alt="Farnley Tyas Image 6" data-toggle="modal" data-target="#farnleyModal6">
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/FarnleyTyas6.jpg" class="gallery1 position-img" alt="Farnley Tyas Image 6" data-toggle="modal" data-target="#farnleyModal6">
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="farnleyModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -324,7 +380,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/FarnleyTyas6.jpg" class="gallery2" alt="Farnley Tyas Image 6" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/FarnleyTyas6.jpg" class="gallery2" alt="Farnley Tyas Image 6" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -336,8 +394,12 @@
             </div>
             <div class="col-12 col-md-6 padding-none gallery-column order-md-first">
                 <div class="gallery-spacing">
-                    <!-- Image trigger modal -->
-                    <img href="#" src="assets/images/Gallery/FarnleyTyas5.jpg" class="gallery1 position-img" alt="Farnley Tyas Image 5" data-toggle="modal" data-target="#farnleyModal5">
+                    <div class="white-bg">
+                        <div class="gallery-container">
+                            <!-- Image trigger modal -->
+                            <img href="#" src="assets/images/Gallery/FarnleyTyas5.jpg" class="gallery1 position-img" alt="Farnley Tyas Image 5" data-toggle="modal" data-target="#farnleyModal5">
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="farnleyModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -349,7 +411,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img href="#" src="assets/images/Gallery/FarnleyTyas5.jpg" class="gallery2" alt="Farnley Tyas Image 5" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="modal-img-container">
+                                        <img href="#" src="assets/images/Gallery/FarnleyTyas5.jpg" class="gallery2" alt="Farnley Tyas Image 5" data-toggle="modal" data-target="#exampleModal">
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
@@ -361,8 +425,6 @@
             </div>
         </div>
 	</section>
-
-
 	<footer class="fluid-container site-footer colors-footer">
 		<div class="row ">
 			<div class="col d-none d-sm-block"></div>

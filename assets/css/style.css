@@ -76,6 +76,9 @@ body{
     margin-bottom: 100px;
 }
 
+.margin-bottom-60 {
+    margin-bottom: 60px;    
+}
 
 /* ============= Nav Menu ==================================================== */
 
@@ -460,14 +463,15 @@ body{
 /* ============= Gallery ==================================================== */
 
 .gallery-section{
-    padding: 0px;
-    padding-bottom: 30px;
+    margin: 0px;
+    padding:0px;
+    padding-bottom: 100px;
 
 }
 
 
 .gallery-row {
-    overflow: hidden;
+    
     position: relative;
     width: 100%;
     margin: 0;
@@ -476,19 +480,53 @@ body{
 .gallery-column {
     height:200px;
     width:100%;
-    overflow: hidden;
+    
     
 }
 
 .gallery-spacing {
     height: 100%;
     width: 100%;
+    
     border: 5px solid #ff000000;
+    
+}
+.gallery-container{
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-    border-radius: 17px;
+    border-radius: 7px;
+    box-shadow: 0 4px 7px #10190d;
+
 }
 
+.white-bg {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0 4px 7px #10190d;
+}
 
+.modal {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    min-width: 50vw;
+    min-height: 60vh;
+
+}
+
+.modal-img-container{
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px #10190d;
+    margin: auto;
+
+}
 
 .smooth-corners {
     border-radius: 15px;
@@ -524,7 +562,6 @@ body{
 
  
 .gallery-row-height{
-    
     overflow: hidden;
 }
 
@@ -538,7 +575,7 @@ body{
 .position-img {
     position: relative;
     left: 0;
-    bottom: 100px;  
+    bottom: 65px;  
 }
 
 
@@ -557,38 +594,35 @@ body{
     color: #343434;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 80px;
+    ;
 }
 
-.modal-dialog {
-    margin-top: 100px;
-}
+
+
 
 .modal-content {
     height: fit-content;
     background-color: #B8B09B;
-} 
+    border-radius: 7px;
+}
+
+.modal-header{
+    border: none;
+    background-color: #6c757d;
+    color: white;
+}
 
 .modal-body {
     text-align: center;
-    overflow: hidden;
+
 }
 
 .modal-footer {
-    margin-top: 16px;
+    
+    border: none;
 }
 
-.gallery-image-container{
-    
-    height: fit-content;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 20px;
-    text-align: end;
-    margin: 10px;
-    box-shadow: 0 4px 25px #000;
-    
-}
+
 
 
 /* ============= Inquiries ======================================================== */
@@ -661,6 +695,8 @@ body{
     height: 136px;
 }
 
+
+
 /* ============= Thanks Page ======================================= */
 .thanks-section{
     min-height: 450px 
@@ -690,6 +726,11 @@ body{
     .speech-bubble { 
         left: 200px;
     }
+
+    .position-img {
+        bottom: 100px;  
+}
+
 }
 
 @media (min-width: 576px) { 
@@ -876,6 +917,11 @@ body{
         left: 50px;
     }
 
+    .gallery-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }   
+
     .gallery-row-height{
         max-height: 458px;
     }
@@ -893,7 +939,7 @@ body{
         height:420px;
     }
 
-    .gallery1:hover {
-    opacity: .5;
+    .gallery-container:hover {
+        opacity: .5;
 }
 }
