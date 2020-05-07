@@ -66,6 +66,8 @@ https://github.com/JackThorntonFSWD/Nick-Dry-Stone-Walling-Website. The deployed
 new commits to the master branch as the master branch was chosen to bee deployed in the repositry settings, then the GitHub Pages section. 
 There must be a index.html file, this will be the home page.
 
+This site can be cloned as zip from the repositry mentioned above
+
 
 ## Credits
 
